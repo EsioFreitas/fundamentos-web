@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     background-color: #ccc;
+    margin: 0;
 }
 
 .cabecalho{
@@ -10,18 +11,18 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
+    margin: 0;
 }
 
 .cabecalho__links{
     width: 100%;
     text-align: end;
-    padding: 10px;
 }
 
 .cabecalho__links li{
     list-style: none;
     display: inline-block;
-    margin: 0 7px;
+    margin: 10px 7px;
     border: 2px solid whitesmoke;
     padding: 10px;
     background-color: rgb(55, 55, 55, 0.4);
@@ -58,7 +59,7 @@ body{
 }
 
 .index-main{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -80,7 +81,7 @@ body{
 
 .card p{
     background-color: rgb(55, 55, 55, 0.9);
-    padding: 10px;
+    padding: 15px;
     margin: 0;
 }
 
@@ -98,4 +99,13 @@ body{
     margin: 0;
     padding: 10px;
     border-bottom: 3px solid #ccc;
+}
+
+footer{
+    padding: 10px;
+    background-color: #37373795;  
+    margin: 0;  
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
