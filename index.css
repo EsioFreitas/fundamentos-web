@@ -90,4 +90,12 @@ body{
 
 .index-main__article{
     padding: 10px;
+    margin: 25px auto;
+}
+
+.index-main__article h2{
+    background-color: rgb(204, 204, 204, 0.5);
+    margin: 0;
+    padding: 10px;
+    border-bottom: 3px solid #ccc;
 }
