@@ -58,5 +58,36 @@ body{
 }
 
 .index-main{
-    
+    width: 95%;
+    margin: 0 auto;
+}
+
+.index-main section{
+    background-color: whitesmoke;
+}
+
+.index-main__cards{
+    margin: 25px auto;
+}
+
+.card{
+    display: inline-block;
+    width: 31.6%;
+    margin: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.card p{
+    background-color: rgb(55, 55, 55, 0.9);
+    padding: 10px;
+    margin: 0;
+}
+
+.card img{
+    width: 100%;
+}
+
+.index-main__article{
+    padding: 10px;
 }
